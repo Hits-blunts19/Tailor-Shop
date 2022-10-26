@@ -1,0 +1,79 @@
+.card figure {
+  overflow: hidden;
+  margin: 0 10px;
+  width: 75%;
+  margin-left: 10%;
+}
+.card figure img {
+  max-width: 100%;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.8s ease-in-out;
+}
+.card:hover figure img {
+  transform: scale(1.1);
+}
+.card:hover .info button {
+  color: #c6a16e;
+  background: #fff;
+  border: 1px solid #c6a16e;
+}
+.card:hover .info .text h4 {
+  color: #c6a16e;
+}
+.card .info {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 90%;
+}
+.card .info button {
+  background: #c6a16e;
+  height: 2rem;
+  width: 7rem;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.card .info .text {
+  margin-top: 0.5rem;
+}
+.card .info .text h4 {
+  font-size: 30px;
+  color: #101a31;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+.card .info .text p {
+  font-size: 14px;
+  margin-top: 1rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.04em;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+.card1 .mini h4 {
+  margin-top: 1.6rem;
+  font-size: 25px;
+  font-weight: 530;
+  font-family: "Josefin Sans", sans-serif;
+  color: #101a31;
+}
+.card1 .mini p {
+  letter-spacing: 0.03em;
+  line-height: 1.6rem;
+  font-size: 14px;
+  margin-top: 1.5rem;
+}
+.card1 .mini p span {
+  font-family: "Script", cursive;
+  color: #be9278;
+  text-decoration: underline;
+}/*# sourceMappingURL=card.css.map */

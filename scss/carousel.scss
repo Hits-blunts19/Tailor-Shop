@@ -1,0 +1,56 @@
+$primary: #be9278;
+$accent: #101a31;
+$sec: #f2e1d9;
+$transition: .3s ease-in-out;
+$light: #fff;
+$text-color: #727580;
+$dark: #000;
+$shadow:  0px 0px 10px 10px rgba(197, 196, 196, 0.377);
+
+.sect6{
+    .responsive{
+        .carousel{
+            p{
+                font-size: 20px;
+                color: $accent;
+                line-height: 1.7em;
+            }
+            .span{
+                display: flex;
+                gap: 2rem;
+                .text{
+                    margin-top: 2.5em;
+                    h5{
+                        font-size: 22px;
+                        color: $accent;
+                        letter-spacing: 0.04em;
+                    }
+                    p{
+                        font-size: 14px;
+                        letter-spacing: 0.04em;
+                    }
+                }
+            }
+        }
+    }
+    .slick-dots{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: right;
+        gap: .6rem;
+        button{
+            padding: .5rem;
+            border: 1px solid transparent;
+            background: transparent;
+            color: $primary;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+    .slick-dots li.slick-active button{
+        color: $accent;
+    }
+}
